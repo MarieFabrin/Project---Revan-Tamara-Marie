@@ -1,6 +1,11 @@
-body{
- background-color: rgb(24, 24, 24);   
+/* Fonts */
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 nav{
     background-color: antiquewhite;
     display: flex;
@@ -9,9 +14,8 @@ nav{
 #language{
     display: flex;
     justify-content: right;
-    border-style: ;
 }
-h1{
+#bigtext{
     color: #c3332f;
     display: flex;
     justify-content: center;
@@ -33,3 +37,156 @@ h1{
     border-style:solid;
     border-color: #c3332f;
 }
+
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+    font-family: 'poppins' sans-serif;
+    line-height: normal;
+}
+
+
+h1 {
+    font-size: 148px;
+    font-weight: 800;
+    color: #C3332F;
+}
+
+h2 {
+    font-size: 128px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 0;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1e1e20;
+}
+
+p,
+a {
+    font-size: 32px;
+    font-weight: 400;
+    color: #1e1e20;
+    text-decoration: none;
+}
+
+/* END Fonts */
+
+body {
+    background-color: #1e1e20;
+}
+
+nav {
+    background-color: white;
+}
+
+/* Sponsor section */
+
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
+}
+
+.sponsortext {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsortext img {
+    height: 10px;
+    width: 800px;
+}
+
+.sponsorimg {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: auto;
+    gap: 40px;
+    background-color: #fff;
+    padding: 40px;
+    outline: 7px solid #C3332F;
+}
+
+/* END Sponsor section */
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 160px;
+    padding: 80px;
+}
+
+.contact,
+.adresse,
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer h3,
+.footer p,
+.footer a {
+    text-align: center;
+}
+
+.contact img {
+    width: 100px;
+    height: 69px;
+    object-fit: contain;
+}
+
+.socialmediaphotos {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    gap: 20px;
+}
+
+/* END Footer section */
+ 22b5204f833d6f3cfe991f686f89f5d6f1db0598
