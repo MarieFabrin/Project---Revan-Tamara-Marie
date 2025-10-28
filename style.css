@@ -1,3 +1,5 @@
+/* Fonts */
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -28,49 +30,51 @@
     font-style: normal;
 }
 
-h1 {
+h1,
+h2,
+h3,
+p,
+a {
     font-family: 'poppins' sans-serif;
+    line-height: normal;
+}
+
+
+h1 {
     font-size: 148px;
     font-weight: 800;
-    color: #1e1e20;
-    line-height: normal;
+    color: #C3332F;
 }
 
 h2 {
-    font-family: 'poppins' sans-serif;
     font-size: 128px;
     font-weight: 800;
-    color: #1e1e20;
-    line-height: normal;
+    color: #fff;
+    line-height: 0;
 }
 
 h3 {
-    font-family: 'poppins' sans-serif;
     font-size: 40px;
     font-weight: 600;
     color: #1e1e20;
-    line-height: 0;
 }
 
 p,
 a {
-    font-family: 'poppins' sans-serif;
     font-size: 32px;
     font-weight: 400;
     color: #1e1e20;
+    text-decoration: none;
 }
 
-a {
-    text-decoration: none;
-    color: #1e1e20;
-}
+/* END Fonts */
 
 body {
-    background-color: rgb(24, 24, 24);
+    background-color: #1e1e20;
 }
 
 nav {
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 
