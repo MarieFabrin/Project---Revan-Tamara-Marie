@@ -3,4 +3,33 @@ body{
 }
 nav{
     background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+#language{
+    display: flex;
+    justify-content: right;
+    border-style: ;
+}
+h1{
+    color: #c3332f;
+    display: flex;
+    justify-content: center;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+#købbillet{
+    display: flex;
+    justify-content: center;
+    background-color: #c3332f;
+    color: antiquewhite;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    border-style:solid;
+    border-color: #c3332f;
 }
