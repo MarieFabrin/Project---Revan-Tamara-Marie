@@ -112,6 +112,7 @@ nav {
     color: #c3332f;
     display: flex;
     justify-content: center;
+    font: size 130px;
 }
 
 #intro {
@@ -130,6 +131,10 @@ nav {
     background-repeat: no-repeat;
     max-width: 100%;
 }
+#slideshow{
+    display: flex;
+    background-image: url(bg\ for\ photo.png);
+}
 
 #købbillet {
     display: flex;
@@ -143,7 +148,11 @@ nav {
     border-style: solid;
     border-color: #c3332f;
 }
-
+#little picture.png{
+    display: flex;
+    justify-content: center;
+    
+}
 
 .experiences-grid {
     display:flex;
