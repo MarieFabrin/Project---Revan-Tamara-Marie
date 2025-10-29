@@ -147,6 +147,8 @@ nav {
     background-color: white;
 }
 
+/* Experiences */
+
 
 #experienceh {
     color: #fff;
@@ -156,8 +158,6 @@ nav {
     text-decoration-thickness: 10px;
     text-decoration-color: #c3332f;
     letter-spacing: 30px;
-
-
 }
 
 .experiences-grid {
@@ -181,6 +181,55 @@ nav {
     border-radius: 100px;
 }
 
+/* Experiences END */
+
+/* Ringriderfest info */
+
+.ringridertext {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    grid-auto-rows: max-content;
+}
+
+#ringriderfesttext {
+    color: #fff;
+    font-family: 'poppins';
+    letter-spacing: 20px;
+    font-size: 100px;
+    grid-auto-rows: max-content;
+}
+    
+.festbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    grid-auto-rows: max-content;
+}
+
+#festinfo {
+    color: #fff;
+    background-color: #c3332F;
+    width: fit-content;
+    height: 500px;
+    padding: 40px;
+    margin: 40px;
+    margin-right: 20px;
+    border-radius: 30px;
+    font-family: 'poppins';
+    font-size: x-large;
+    line-height: 40px ;
+    
+}
+
+#infopic {
+    width: 650px;
+    height: 580px;
+    padding: 40px;
+    margin-left: 20px;
+}
 
 /* Sponsor section */
 
