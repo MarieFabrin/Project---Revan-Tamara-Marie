@@ -6,74 +6,6 @@
     font-style: normal;
 }
 
-nav {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-}
-
-#homebutton {
-    background-color: white;
-    border-style: none;
-}
-
-#programbutton {
-    background-color: white;
-    border-style: none;
-}
-
-#billedebutton {
-    background-color: white;
-    border-style: none;
-}
-
-#børnelandbutton {
-    background-color: white;
-    border-style: none;
-}
-
-#language {
-    display: flex;
-    justify-content: right;
-    background-color: white;
-    border-style: none;
-}
-
-#bigtext {
-    color: #c3332f;
-    display: flex;
-    justify-content: center;
-}
-
-#intro {
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
-#introbillede {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-size: cover;
-    background-image: url(hero\ bg\ image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 100%;
-}
-
-#købbillet {
-    display: flex;
-    justify-content: center;
-    background-color: #c3332f;
-    color: white;
-    padding: 20px;
-    font-size: 15px;
-    border-radius: 15px;
-    font-weight: bold;
-    border-style: solid;
-    border-color: #c3332f;
-}
 
 
 .poppins-semibold {
@@ -145,6 +77,71 @@ body {
 
 nav {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#homebutton {
+    background-color: white;
+    border-style: none;
+}
+
+#programbutton {
+    background-color: white;
+    border-style: none;
+}
+
+#billedebutton {
+    background-color: white;
+    border-style: none;
+}
+
+#børnelandbutton {
+    background-color: white;
+    border-style: none;
+}
+
+#language {
+    display: flex;
+    justify-content: right;
+    background-color: white;
+    border-style: none;
+}
+
+#bigtext {
+    color: #c3332f;
+    display: flex;
+    justify-content: center;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#introbillede {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-image: url(hero\ bg\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+#købbillet {
+    display: flex;
+    justify-content: center;
+    background-color: #c3332f;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #c3332f;
 }
 
 /* Experiences */
