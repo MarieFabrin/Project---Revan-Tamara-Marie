@@ -148,8 +148,8 @@ nav {
     border-style: solid;
     border-color: #c3332f;
 }
-#little picture.png{
-    display: flex;
+#little picture.png img{
+    display: flexbox;
     justify-content: center;
     
 }
