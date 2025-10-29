@@ -101,21 +101,29 @@ nav {
 #homebutton {
     background-color: white;
     border-style: none;
+    padding: 30px;
+    font-size: 25px;
 }
 
 #programbutton {
     background-color: white;
     border-style: none;
+     padding: 30px;
+    font-size: 25px;
 }
 
 #billedebutton {
     background-color: white;
     border-style: none;
+     padding: 30px;
+    font-size: 25px;
 }
 
 #børnelandbutton {
     background-color: white;
     border-style: none;
+     padding: 30px;
+    font-size: 25px;
 }
 
 #language {
@@ -123,6 +131,8 @@ nav {
     justify-content: right;
     background-color: white;
     border-style: none;
+     padding: 30px;
+    font-size: 25px;
 }
 
 #bigtext {
@@ -149,11 +159,13 @@ nav {
     max-width: 100%;
 }
 
-#slideshow {
-    display: flex;
-    background-image: url(bg\ for\ photo.png);
-}
 
+#slideshow {
+    display: flexbox;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
 #købbillet {
     display: flex;
     justify-content: center;
