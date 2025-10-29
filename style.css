@@ -170,19 +170,6 @@ nav {
     border-color: #c3332f;
 }
 
-/* Experiences */
-
-
-#experienceh {
-    color: #fff;
-    font-family: 'poppins';
-    text-align: center;
-    text-decoration: line-through;
-    text-decoration-thickness: 10px;
-    text-decoration-color: #c3332f;
-    letter-spacing: 30px;
-}
-
     #littlepicture {
         display: flex;
         justify-content: center;
@@ -194,6 +181,20 @@ nav {
         justify-content: center;
         align-items: center;
     }
+
+
+/* Experiences */
+
+#experienceh {
+    color: #fff;
+    font-family: 'poppins';
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-thickness: 10px;
+    text-decoration-color: #c3332f;
+    letter-spacing: 30px;
+}
+
 
     .experiences-grid {
         display: flex;
