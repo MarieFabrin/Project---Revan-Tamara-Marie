@@ -148,6 +148,18 @@ nav {
 }
 
 
+#experienceh {
+    color: #fff;
+    font-family: 'poppins';
+    text-align: center;
+    text-decoration:line-through;
+    text-decoration-thickness: 10px;
+    text-decoration-color: #c3332f;
+    letter-spacing: 30px;
+
+
+}
+
 .experiences-grid {
     display:flex;
     grid-auto-rows: max-content;
