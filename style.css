@@ -6,35 +6,72 @@
     font-style: normal;
 }
 
-nav{
-    background-color: antiquewhite;
+nav {
+    background-color: white;
     display: flex;
     justify-content: space-between;
 }
-#language{
+
+#homebutton {
+    background-color: white;
+    border-style: none;
+}
+
+#programbutton {
+    background-color: white;
+    border-style: none;
+}
+
+#billedebutton {
+    background-color: white;
+    border-style: none;
+}
+
+#børnelandbutton {
+    background-color: white;
+    border-style: none;
+}
+
+#language {
     display: flex;
     justify-content: right;
+    background-color: white;
+    border-style: none;
 }
-#bigtext{
+
+#bigtext {
     color: #c3332f;
     display: flex;
     justify-content: center;
 }
-#intro{
+
+#intro {
     display: flex;
     justify-content: center;
-    color: antiquewhite;
+    color: white;
 }
-#købbillet{
+
+#introbillede {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-image: url(hero\ bg\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+#købbillet {
     display: flex;
     justify-content: center;
     background-color: #c3332f;
-    color: antiquewhite;
+    color: white;
     padding: 20px;
     font-size: 15px;
     border-radius: 15px;
     font-weight: bold;
-    border-style:solid;
+    border-style: solid;
     border-color: #c3332f;
 }
 
@@ -212,4 +249,4 @@ nav {
 }
 
 /* END Footer section */
- 22b5204f833d6f3cfe991f686f89f5d6f1db0598
+22b5204f833d6f3cfe991f686f89f5d6f1db0598
