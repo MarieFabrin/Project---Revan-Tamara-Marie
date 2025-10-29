@@ -201,7 +201,7 @@ nav {
     
 .festbox {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     gap: 40px;
     grid-auto-rows: max-content;
 }
@@ -213,7 +213,6 @@ nav {
     height: 500px;
     padding: 40px;
     margin: 40px;
-    margin-right: 20px;
     border-radius: 30px;
     font-family: 'poppins';
     font-size: x-large;
@@ -222,11 +221,27 @@ nav {
 }
 
 #infopic {
-    width: 650px;
+    width: 750px;
     height: 580px;
     padding: 40px;
-    margin-left: 20px;
 }
+
+.festbutton {
+    display: flex;
+    justify-content: center;
+}
+
+#rytterbutton {
+    background-color: #C3332F;
+    padding: 40px;
+    width: 350px;
+    border-radius: 20px;
+    font-family: 'poppins';
+    color: white;
+    font-size: large;
+}
+
+/* info end */
 
 /* Sponsor section */
 
