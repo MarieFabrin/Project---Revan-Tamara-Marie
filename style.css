@@ -194,14 +194,24 @@ nav {
 }
 
 .sponsorimg {
-    display: flex;
-    flex-direction: row;
     height: 100px;
     width: auto;
-    gap: 40px;
     background-color: #fff;
     padding: 40px;
     outline: 7px solid #C3332F;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    animation: slide 9s infinite ;
+}
+
+@keyframes slide {
+    0% {transform: translateX(0%)}
+    100% {transform: translateX(-50%);}
 }
 
 /* END Sponsor section */
@@ -224,7 +234,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    width: 33%;
 }
 
 .footer h3,
@@ -249,4 +259,3 @@ nav {
 }
 
 /* END Footer section */
-22b5204f833d6f3cfe991f686f89f5d6f1db0598
