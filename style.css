@@ -133,13 +133,14 @@ body {
     text-decoration: none;
 }
 
-#menu{
+#menu {
     display: none;
     height: 35px;
     width: auto;
 }
-.menu img{
-      display: none;
+
+.menu img {
+    display: none;
 }
 
 @media screen and (max-width: 1200px) {
@@ -229,6 +230,39 @@ body {
 #littlepicture {
     padding-top: 40px;
     height: 500px;
+}
+
+.sliderphotos {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 300%;
+}
+
+.sliderphotos::-webkit-scrollbar {
+    display: none;
+}
+
+.photoslide {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    scroll-margin-top: 50vh;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+#photo1 img,
+#photo2 img,
+#photo3 img {
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -372,15 +406,15 @@ body {
 @media screen and (max-width: 768px) {
 
     #experienceh {
-    color: #fff;
-    font-family: 'poppins';
-    text-align: center;
-    background: linear-gradient(#c3332f 0 0) no-repeat;
-    background-size: 80% 5px;
-    background-position: center;
-    letter-spacing: 20px;
-    font-size: 60px
-}
+        color: #fff;
+        font-family: 'poppins';
+        text-align: center;
+        background: linear-gradient(#c3332f 0 0) no-repeat;
+        background-size: 80% 5px;
+        background-position: center;
+        letter-spacing: 20px;
+        font-size: 60px
+    }
 
     .experiences-grid {
         display: flex;
