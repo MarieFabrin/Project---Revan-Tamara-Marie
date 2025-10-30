@@ -115,14 +115,14 @@ nav {
 #billedebutton {
     background-color: white;
     border-style: none;
-     padding: 80px;
+    padding: 80px;
     font-size: 20px;
 }
 
 #børnelandbutton {
     background-color: white;
     border-style: none;
-     padding: 80px;
+    padding: 80px;
     font-size: 20px;
 }
 
@@ -131,7 +131,7 @@ nav {
     justify-content: right;
     background-color: white;
     border-style: none;
-     padding: 80px;
+    padding: 80px;
     font-size: 20px;
 }
 
@@ -157,7 +157,7 @@ nav {
     flex-direction: column;
     align-items: center;
     background-size: cover;
-    background-image: url(hero\ bg\ image.png);    
+    background-image: url(hero\ bg\ image.png);
 }
 
 #slideshow {
@@ -188,10 +188,10 @@ nav {
 }
 
 #littlepicture {
-padding-top: 40px;
-height: 500px;
+    padding-top: 40px;
+    height: 500px;
 }
-    
+
 
 
 /* Experiences */
@@ -350,46 +350,46 @@ height: 500px;
 }
 
 @media screen and (max-width: 1440px) {
-    
-.ringridertext {
-    padding: 48px;
-}
 
-.festbox {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
+    .ringridertext {
+        padding: 48px;
+    }
 
-#festinfo {
-    height: 250px;
-    padding: 24px;
-    margin: 24px;
-    border-radius: 30px;
-    flex: 1;
-    width: 100%;
-    justify-self: center;
-}
+    .festbox {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
 
-#infopic {
-    height: 280px;
-    padding: 48px;
-    width: 100%;
-    justify-content: center;
+    #festinfo {
+        height: 250px;
+        padding: 24px;
+        margin: 24px;
+        border-radius: 30px;
+        flex: 1;
+        width: 100%;
+        justify-self: center;
+    }
 
-}
+    #infopic {
+        height: 280px;
+        padding: 48px;
+        width: 100%;
+        justify-content: center;
 
-.festbutton {
-    display: flex;
-    justify-content: center;
-}
+    }
 
-#rytterbutton {
-    padding: 40px;
-    width: 350px;
-    border-radius: 20px;
-    font-size: large;
-}
+    .festbutton {
+        display: flex;
+        justify-content: center;
+    }
+
+    #rytterbutton {
+        padding: 40px;
+        width: 350px;
+        border-radius: 20px;
+        font-size: large;
+    }
 
 }
 
@@ -458,10 +458,10 @@ slider img {
         font-size: 64px;
     }
 
-.sponsortext img {
-    height: 7px;
-    object-fit: cover;
-}
+    .sponsortext img {
+        height: 7px;
+        object-fit: cover;
+    }
 }
 
 @media screen and (max-width: 1224px) {
