@@ -173,7 +173,6 @@ body {
 
 /* END Nav bar */
 
-
 #bigtext {
     color: #c3332f;
     justify-content: center;
@@ -208,7 +207,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     padding-top: 40px;
     padding-bottom: 80px;
 
@@ -234,11 +232,11 @@ body {
 
 .sliderphotos {
     display: flex;
-    flex-direction: row;
     overflow: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    width: 300%;
+    width: 100%;
+        scroll-padding-right: 0;
 }
 
 .sliderphotos::-webkit-scrollbar {
@@ -246,17 +244,19 @@ body {
 }
 
 .photoslide {
-    width: 100%;
-    display: flex;
     position: relative;
-    justify-content: space-between;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center; 
     align-items: center;
-    scroll-margin-top: 50vh;
     scroll-snap-align: start;
     box-sizing: border-box;
-    justify-content: flex-start;
-    padding-left: 500px;
-    padding-right: 500px;
+}
+
+.photoslide img {
+  max-width: 60vw;
+  height: auto;
+  border-radius: 20px;
 }
 
 #photo1 img,
@@ -265,47 +265,73 @@ body {
     border-radius: 20px;
 }
 
+.navbtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 80px;
+}
+
+.navbtn.left {
+    left: 5%;
+}
+
+.navbtn.right {
+    right: 5%;
+}
+
 @media screen and (max-width: 768px) {
 
-    #introbillede {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-size: cover;
-        background-image: url(hero\ bg\ image.png);
-    }
+#bigtext {
+    font: size 130px;
 
-    #slideshow {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        align-items: center;
-        background-image: url(photos/PicBG.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding-top: 40px;
-        padding-bottom: 80px;
-
-    }
+}
 
     #købbillet {
-        display: flex;
-        justify-content: center;
-        background-color: #C3332F;
         padding: 20px;
         width: 150px;
         border-radius: 20px;
-        font-family: 'poppins';
-        color: white;
         font-size: medium;
     }
 
-    #littlepicture {
-        padding-top: 40px;
-        height: 300px;
-    }
+
+#littlepicture {
+    padding-top: 40px;
+    height: 250px;
+}
+
+.photoslide {
+    position: relative;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+}
+
+.photoslide img {
+  max-width: 60vw;
+  height: auto;
+
+}
+
+.navbtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 80px;
+}
+
+.navbtn.left {
+    left: 5%;
+}
+
+.navbtn.right {
+    right: 5%;
+}
 
 }
 
