@@ -164,7 +164,12 @@ nav {
     position: relative;
     align-items: center;
     background-image: url(bg\ for\ photo.png);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 100%;
 }
 
 
