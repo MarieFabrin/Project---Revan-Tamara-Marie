@@ -192,15 +192,14 @@ body {
     justify-content: center;
     position: relative;
     align-items: center;
-    background-image: url(bg\ for\ photo.png);
+    background-image: url(photos/PicBG.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    max-width: 100%;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 80px;
+
 }
 
 #købbillet {
@@ -214,6 +213,13 @@ body {
     color: white;
     font-size: large;
 }
+
+#littlepicture {
+    padding-top: 40px;
+    height: 500px;
+}
+
+
 
 /* Experiences */
 
