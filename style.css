@@ -415,7 +415,7 @@ body {
 }
 
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1000px) {
 
     .experiences-grid {
         display: flex;
