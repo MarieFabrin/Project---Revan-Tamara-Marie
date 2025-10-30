@@ -137,7 +137,6 @@ nav {
 
 #bigtext {
     color: #c3332f;
-    display: flex;
     justify-content: center;
     font: size 130px;
 }
@@ -145,6 +144,7 @@ nav {
 #intro {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
 }
 
