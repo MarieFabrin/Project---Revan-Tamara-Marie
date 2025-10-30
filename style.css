@@ -662,7 +662,7 @@ height: 1000px;
     flex-direction: row;
     width: max-content;
     gap: 40px;
-    animation: slide 30s linear infinite;
+    animation: slide 15s linear infinite;
 }
 
 @keyframes slide {
