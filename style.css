@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-    font-size: 128px;
+    font-size: 100px;
     font-weight: 800;
     color: #fff;
     line-height: 0;
@@ -153,10 +153,8 @@ nav {
     flex-direction: column;
     align-items: center;
     background-size: cover;
-    background-image: url(hero\ bg\ image.png);
-    
+    background-image: url(hero\ bg\ image.png);    
 }
-
 
 #slideshow {
     display: flex;
@@ -172,7 +170,6 @@ nav {
     max-width: 100%;
 }
 
-
 #købbillet {
     display: flex;
     justify-content: center;
@@ -184,8 +181,6 @@ nav {
     color: white;
     font-size: large;
 }
-
-
 
 /* Experiences */
 
@@ -400,6 +395,18 @@ slider img {
     100% {
         transform: translateX(-50%);
     }
+}
+
+@media screen and (max-width: 1440px) {
+
+    h2 {
+        font-size: 64px;
+    }
+
+.sponsortext img {
+    height: 7px;
+    object-fit: cover;
+}
 }
 
 @media screen and (max-width: 1224px) {
