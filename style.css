@@ -112,6 +112,7 @@ body {
     font-weight: 400;
     color: #1e1e20;
     text-decoration: none;
+    padding: 40px;
 }
 
 #language {
@@ -213,6 +214,7 @@ body {
     font-family: 'poppins';
     color: white;
     font-size: large;
+    margin:40px;
 }
 
 #littlepicture {
@@ -256,6 +258,7 @@ body {
     color: white;
     font-size: medium;
 }
+
 
 #littlepicture {
     padding-top: 40px;
@@ -448,6 +451,22 @@ body {
     justify-content: center;
     gap: 80px;
 }
+#littlepicture {
+    padding-top: 40px;
+    height: 500px;
+}
+#slideshow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-image: url(photos/PicBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+height: 1000px;
+}
 
 #festinfo {
     display: flex;
@@ -468,6 +487,7 @@ body {
     height: 580px;
     padding: 40px;
     width: 50%;
+    object-fit: cover;
 }
 
 .festbutton {
