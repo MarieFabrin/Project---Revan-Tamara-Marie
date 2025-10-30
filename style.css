@@ -484,8 +484,6 @@ body {
     font-size: large;
 }
 }
-@media screen and (max-width: 1440px) {
-}
 @media screen and (max-width: 768px) {
 
     .ringridertext {
@@ -551,6 +549,7 @@ body {
     height: 5px;
 
 }
+}
 
 /* info END */
 
@@ -580,7 +579,6 @@ body {
 
 .sponsorimg {
     height: 100px;
-    height: auto;
     width: auto;
     background-color: #fff;
     padding: 40px;
@@ -588,7 +586,7 @@ body {
     border: 7px solid #C3332F;
 }
 
-slider img {
+.slider img {
     height: 100px;
 }
 
@@ -597,7 +595,6 @@ slider img {
     flex-direction: row;
     width: max-content;
     gap: 40px;
-    animation: slide 15s linear infinite;
     animation: slide 30s linear infinite;
 }
 
@@ -609,6 +606,7 @@ slider img {
     100% {
         transform: translateX(-50%);
     }
+
 }
 
 @media screen and (max-width: 1440px) {
@@ -722,6 +720,7 @@ slider img {
 }
 
 @media screen and (max-width: 1224px) {
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -743,6 +742,4 @@ slider img {
         height: 40px;
         gap: 12px;
     }
-
-}
 }
