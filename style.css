@@ -66,6 +66,14 @@ a {
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 1440px) {
+    h1 {
+        font-size: 92px;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 36px;
@@ -367,6 +375,16 @@ body {
 
 @media screen and (max-width: 768px) {
 
+    #experienceh {
+    color: #fff;
+    font-family: 'poppins';
+    text-align: center;
+    background: linear-gradient(#c3332f 0 0) no-repeat;
+    background-size: 80% 5px;
+    background-position: center;
+    letter-spacing: 20px;
+    font-size: 60px
+}
 
     .experiences-grid {
         display: flex;
