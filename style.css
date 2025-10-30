@@ -108,7 +108,7 @@ nav {
 #programbutton {
     background-color: white;
     border-style: none;
-     padding: 80px;
+    padding: 80px;
     font-size: 20px;
 }
 
@@ -286,7 +286,6 @@ nav {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    grid-auto-rows: max-content;
     padding: 80px;
 }
 
@@ -295,33 +294,33 @@ nav {
     font-family: 'poppins';
     letter-spacing: 20px;
     font-size: 100px;
-    grid-auto-rows: max-content;
 }
 
 .festbox {
     display: flex;
     justify-content: center;
     gap: 80px;
-    grid-auto-rows: max-content;
 }
 
 #festinfo {
+    display: flex;
+    align-items: center;
     color: #fff;
     background-color: #c3332F;
     height: 500px;
     padding: 40px;
     margin: 40px;
     border-radius: 30px;
-    font-family: 'poppins';
-    font-size: x-large;
     line-height: 40px;
     flex: 1;
+    width: 50%;
 }
 
 #infopic {
     flex: 1;
     height: 580px;
     padding: 40px;
+    width: 50%;
 }
 
 .festbutton {
@@ -334,12 +333,55 @@ nav {
     padding: 40px;
     width: 350px;
     border-radius: 20px;
-    font-family: 'poppins';
     color: white;
     font-size: large;
 }
 
-/* info end */
+@media screen and (max-width: 1440px) {
+    
+.ringridertext {
+    padding: 48px;
+}
+
+.festbox {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#festinfo {
+    height: 250px;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 30px;
+    flex: 1;
+    width: 100%;
+    justify-self: center;
+}
+
+#infopic {
+    height: 280px;
+    padding: 48px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.festbutton {
+    display: flex;
+    justify-content: center;
+}
+
+#rytterbutton {
+    padding: 40px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+}
+
+/* info END */
 
 
 /* Sponsor section */
