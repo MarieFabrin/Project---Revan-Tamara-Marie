@@ -66,6 +66,14 @@ a {
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 1440px) {
+    h1 {
+        font-size: 92px;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 36px;
@@ -154,7 +162,7 @@ body {
     }
 
     #menu {
-    display:flex;
+    display:block;
     height: 100px;
     }
 
