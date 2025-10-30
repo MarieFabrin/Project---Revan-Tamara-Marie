@@ -154,7 +154,7 @@ body {
     }
 
     #menu {
-    display:flex;
+    display:block;
     height: 100px;
     }
 
