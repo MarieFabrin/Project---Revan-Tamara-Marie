@@ -134,10 +134,13 @@ body {
     text-decoration: none;
 }
 
-#menu {
+#menu{
     display: none;
     height: 35px;
     width: auto;
+}
+.menu img{
+      display: none;
 }
 
 @media screen and (max-width: 768px) {
