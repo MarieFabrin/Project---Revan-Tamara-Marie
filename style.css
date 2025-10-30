@@ -319,20 +319,19 @@ nav {
     align-items: center;
     color: #fff;
     background-color: #c3332F;
-    height: 500px;
+    height: 600px;
     padding: 40px;
-    margin: 40px;
     border-radius: 30px;
     line-height: 40px;
-    flex: 1;
     width: 50%;
 }
 
 #infopic {
     flex: 1;
-    height: 580px;
+    height: 680px;
     padding: 40px;
-    width: 50%;
+    margin-bottom: 80px;
+    width: 45%
 }
 
 .festbutton {
@@ -349,48 +348,67 @@ nav {
     font-size: large;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 768px) {
 
     .ringridertext {
-        padding: 48px;
-    }
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
 
-    .festbox {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-    }
+#ringriderfesttext {
+    color: #fff;
+    font-family: 'poppins';
+    letter-spacing:10px;
+    font-size: 40px;
+}
 
-    #festinfo {
-        height: 250px;
-        padding: 24px;
-        margin: 24px;
-        border-radius: 30px;
-        flex: 1;
-        width: 100%;
-        justify-self: center;
-    }
+.festbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
 
-    #infopic {
-        height: 280px;
-        padding: 48px;
-        width: 100%;
-        justify-content: center;
+#festinfo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #c3332F;
+    height: 200px;
+    padding: 40px;
+    border-radius: 30px;
+    line-height: 35px;
+    text-align: center;
+    width: 600px;
+}
 
-    }
+#infopic {
+    flex: 1;
+    height: 380px;
+    padding: 40px;
+    margin-bottom: 80px;
+    width: 600px;
+}
 
-    .festbutton {
-        display: flex;
-        justify-content: center;
-    }
+.festbutton {
+    display: flex;
+    justify-content: center;
+}
 
-    #rytterbutton {
-        padding: 40px;
-        width: 350px;
-        border-radius: 20px;
-        font-size: large;
-    }
-
+#rytterbutton {
+    background-color: #C3332F;
+    padding: 40px;
+    width: 350px;
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+}
+   
 }
 
 /* info END */
