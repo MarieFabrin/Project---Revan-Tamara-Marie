@@ -222,6 +222,7 @@ nav {
 .experiences-grid p {
     align-items: center;
     text-align: center;
+    padding: 5px;
 }
 
 .experiences-grid img {
