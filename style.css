@@ -360,7 +360,36 @@ body {
 
 @media screen and (max-width: 768px) {
 
-    
+
+    .experiences-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+}    
+
+.card {
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-btn img {
+    height: 30px;
+    width: 30px;
+}
+
 }
 
 /* Experiences END */
