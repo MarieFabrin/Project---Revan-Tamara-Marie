@@ -66,7 +66,6 @@ a {
     text-decoration: none;
 }
 
-
 @media screen and (max-width: 1440px) {
     h1 {
         font-size: 92px;
@@ -162,12 +161,11 @@ body {
     }
 
     #menu {
-    display:block;
-    height: 100px;
+        display: block;
+        height: 100px;
     }
 
 }
-
 
 /* END Nav bar */
 
@@ -222,7 +220,7 @@ body {
     font-family: 'poppins';
     color: white;
     font-size: large;
-    margin:40px;
+    margin: 40px;
 }
 
 #littlepicture {
@@ -232,49 +230,47 @@ body {
 
 @media screen and (max-width: 768px) {
 
-#introbillede {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-size: cover;
-    background-image: url(hero\ bg\ image.png);
-}
+    #introbillede {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        background-image: url(hero\ bg\ image.png);
+    }
 
-#slideshow {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    background-image: url(photos/PicBG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    #slideshow {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        background-image: url(photos/PicBG.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 40px;
+        padding-bottom: 80px;
 
-}
+    }
 
     #købbillet {
-    display: flex;
-    justify-content: center;
-    background-color: #C3332F;
-    padding: 20px;
-    width: 150px;
-    border-radius: 20px;
-    font-family: 'poppins';
-    color: white;
-    font-size: medium;
+        display: flex;
+        justify-content: center;
+        background-color: #C3332F;
+        padding: 20px;
+        width: 150px;
+        border-radius: 20px;
+        font-family: 'poppins';
+        color: white;
+        font-size: medium;
+    }
+
+    #littlepicture {
+        padding-top: 40px;
+        height: 300px;
+    }
+
 }
-
-
-#littlepicture {
-    padding-top: 40px;
-    height: 300px;
-}
-
-}
-
 
 /* Experiences */
 
@@ -372,6 +368,40 @@ body {
 
 @media screen and (max-width: 768px) {
 
+    .experiences-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .nav-btn img {
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 1440px) {
 
     .experiences-grid {
         display: flex;
@@ -380,27 +410,28 @@ body {
         text-align: center;
     }
 
-.page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-    align-items: center;
-    width: 100%;
-    padding: 24px;
-    text-align: center;
-}    
+    .page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
 
-.card {
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    text-align: center;
-}
+    .card {
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        padding: 12px;
+    }
 
-.nav-btn img {
-    height: 30px;
-    width: 30px;
-}
+    .nav-btn img {
+        height: 50px;
+        width: 50px;
+    }
 
 }
 
@@ -464,152 +495,153 @@ body {
     font-size: large;
 }
 
-
 @media screen and (min-width: 2000px) {
     .ringridertext {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding: 80px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 80px;
+    }
+
+    #ringriderfesttext {
+        color: #fff;
+        font-family: 'poppins';
+        letter-spacing: 20px;
+        font-size: 100px;
+    }
+
+    .festbox {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    #littlepicture {
+        padding-top: 40px;
+        height: 500px;
+    }
+
+    #slideshow {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        background-image: url(photos/PicBG.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 40px;
+        padding-bottom: 80px;
+        height: 1000px;
+    }
+
+    #festinfo {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        background-color: #c3332F;
+        height: 500px;
+        padding: 40px;
+        margin: 40px;
+        border-radius: 30px;
+        line-height: 40px;
+        flex: 1;
+        width: 50%;
+    }
+
+    #infopic {
+        flex: 1;
+        height: 580px;
+        padding: 40px;
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .festbutton {
+        display: flex;
+        justify-content: center;
+    }
+
+    #rytterbutton {
+        background-color: #C3332F;
+        padding: 40px;
+        width: 350px;
+        border-radius: 20px;
+        color: white;
+        font-size: large;
+    }
+
 }
 
-#ringriderfesttext {
-    color: #fff;
-    font-family: 'poppins';
-    letter-spacing: 20px;
-    font-size: 100px;
-}
-
-
-.festbox {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-}
-#littlepicture {
-    padding-top: 40px;
-    height: 500px;
-}
-#slideshow {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    background-image: url(photos/PicBG.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 40px;
-    padding-bottom: 80px;
-height: 1000px;
-}
-
-#festinfo {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    background-color: #c3332F;
-    height: 500px;
-    padding: 40px;
-    margin: 40px;
-    border-radius: 30px;
-    line-height: 40px;
-    flex: 1;
-    width: 50%;
-}
-
-#infopic {
-    flex: 1;
-    height: 580px;
-    padding: 40px;
-    width: 50%;
-    object-fit: cover;
-}
-
-.festbutton {
-    display: flex;
-    justify-content: center;
-}
-
-#rytterbutton {
-    background-color: #C3332F;
-    padding: 40px;
-    width: 350px;
-    border-radius: 20px;
-    color: white;
-    font-size: large;
-}
-}
 @media screen and (max-width: 768px) {
 
     .ringridertext {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-}
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
 
-#ringriderfesttext {
-    color: #fff;
-    font-family: 'poppins';
-    letter-spacing:10px;
-    font-size: 40px;
-}
+    #ringriderfesttext {
+        color: #fff;
+        font-family: 'poppins';
+        letter-spacing: 10px;
+        font-size: 40px;
+    }
 
-.festbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-}
+    .festbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
 
-#festinfo {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    background-color: #c3332F;
-    height: 200px;
-    padding: 40px;
-    border-radius: 30px;
-    line-height: 35px;
-    text-align: center;
-    width: 600px;
-}
+    #festinfo {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        background-color: #c3332F;
+        height: 200px;
+        padding: 40px;
+        border-radius: 30px;
+        line-height: 35px;
+        text-align: center;
+        width: 600px;
+    }
 
-#infopic {
-    flex: 1;
-    height: 380px;
-    padding: 40px;
-    margin-bottom: 80px;
-    width: 600px;
-}
+    #infopic {
+        flex: 1;
+        height: 380px;
+        padding: 40px;
+        margin-bottom: 80px;
+        width: 600px;
+    }
 
-.festbutton {
-    display: flex;
-    justify-content: center;
-}
+    .festbutton {
+        display: flex;
+        justify-content: center;
+    }
 
-#rytterbutton {
-    background-color: #C3332F;
-    padding: 40px;
-    width: 350px;
-    border-radius: 20px;
-    color: white;
-    font-size: large;
-}
-   
-#festlines {
-    height: 5px;
+    #rytterbutton {
+        background-color: #C3332F;
+        padding: 40px;
+        width: 350px;
+        border-radius: 20px;
+        color: white;
+        font-size: large;
+    }
 
-}
+    #festlines {
+        height: 5px;
+
+    }
 }
 
 /* info END */
-
 
 /* Sponsor section */
 
@@ -669,7 +701,7 @@ height: 1000px;
 @media screen and (max-width: 1440px) {
 
     h2 {
-        font-size: 64px;
+        font-size: 80px;
     }
 
     .sponsortext img {
@@ -728,7 +760,6 @@ height: 1000px;
 }
 
 /* END Sponsor section */
-
 
 /* Footer section */
 
