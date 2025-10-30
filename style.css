@@ -92,38 +92,26 @@ body {
     background-color: #1e1e20;
 }
 
-nav {
+/* Nav bar */
+
+.navbar {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
 }
 
-#homebutton {
-    background-color: white;
-    border-style: none;
-    padding: 80px;
-    font-size: 20px;
-}
-
-#programbutton {
-    background-color: white;
-    border-style: none;
-    padding: 80px;
-    font-size: 20px;
-}
-
-#billedebutton {
-    background-color: white;
-    border-style: none;
-    padding: 80px;
-    font-size: 20px;
-}
-
+#homebutton,
+#programbutton,
+#billedebutton,
 #børnelandbutton {
     background-color: white;
     border-style: none;
-    padding: 80px;
-    font-size: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #1e1e20;
+    text-decoration: none;
 }
 
 #language {
@@ -131,9 +119,48 @@ nav {
     justify-content: right;
     background-color: white;
     border-style: none;
-    padding: 80px;
-    font-size: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #1e1e20;
+    text-decoration: none;
 }
+
+.menu img {
+    display: none;
+    height: 35px;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 80px;
+    }
+
+    #homebutton,
+    #programbutton,
+    #billedebutton,
+    #børnelandbutton {
+        display: none;
+    }
+
+    #language {
+        display: none;
+
+    }
+
+    #menu-icon {
+    display: block;
+    }
+
+}
+
+
+/* END Nav bar */
+
 
 #bigtext {
     color: #c3332f;
@@ -286,6 +313,11 @@ nav {
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+@media screen and (max-width: 768px) {
+
+    
 }
 
 /* Experiences END */
