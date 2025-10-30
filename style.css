@@ -125,7 +125,7 @@ body {
     text-decoration: none;
 }
 
-.menu img {
+#menu {
     display: none;
     height: 35px;
     width: auto;
@@ -152,8 +152,9 @@ body {
 
     }
 
-    #menu-icon {
-    display:contents
+    #menu {
+    display:flex;
+    height: 100px;
     }
 
 }
