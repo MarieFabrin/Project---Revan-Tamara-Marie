@@ -101,29 +101,29 @@ nav {
 #homebutton {
     background-color: white;
     border-style: none;
-    padding: 30px;
-    font-size: 25px;
+    padding: 80px;
+    font-size: 20px;
 }
 
 #programbutton {
     background-color: white;
     border-style: none;
-     padding: 30px;
-    font-size: 25px;
+     padding: 80px;
+    font-size: 20px;
 }
 
 #billedebutton {
     background-color: white;
     border-style: none;
-     padding: 30px;
-    font-size: 25px;
+     padding: 80px;
+    font-size: 20px;
 }
 
 #børnelandbutton {
     background-color: white;
     border-style: none;
-     padding: 30px;
-    font-size: 25px;
+     padding: 80px;
+    font-size: 20px;
 }
 
 #language {
@@ -131,8 +131,8 @@ nav {
     justify-content: right;
     background-color: white;
     border-style: none;
-     padding: 30px;
-    font-size: 25px;
+     padding: 80px;
+    font-size: 20px;
 }
 
 #bigtext {
@@ -159,13 +159,14 @@ nav {
 
 
 #slideshow {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     position: relative;
     align-items: center;
     background-image: url(bg\ for\ photo.png);
     
 }
+
 
 #købbillet {
     display: flex;
@@ -180,17 +181,7 @@ nav {
     border-color: #c3332f;
 }
 
-#littlepicture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-#littlepicture.png img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* Experiences */
 
