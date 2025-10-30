@@ -221,6 +221,29 @@ body {
 
 @media screen and (max-width: 768px) {
 
+#introbillede {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-image: url(hero\ bg\ image.png);
+}
+
+#slideshow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-image: url(photos/PicBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+}
+
     #købbillet {
     display: flex;
     justify-content: center;
@@ -233,6 +256,10 @@ body {
     font-size: medium;
 }
 
+#littlepicture {
+    padding-top: 40px;
+    height: 300px;
+}
 
 }
 
