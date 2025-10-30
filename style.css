@@ -139,6 +139,8 @@ nav {
     color: #c3332f;
     justify-content: center;
     font: size 130px;
+    text-align: center;
+
 }
 
 #intro {
@@ -146,6 +148,8 @@ nav {
     justify-content: center;
     align-items: center;
     color: white;
+    text-align: center;
+    font-family: 'poppins';
 }
 
 #introbillede {
@@ -259,7 +263,7 @@ nav {
     position: absolute;
     border-radius: 50px;
     width: 100px;
-    height: 100px;
+    height: 200px;
     padding: 25px;
     margin: 25px;
 }
