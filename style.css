@@ -441,6 +441,7 @@ body {
     font-size: 100px;
 }
 
+
 .festbox {
     display: flex;
     justify-content: center;
@@ -545,6 +546,9 @@ body {
     font-size: large;
 }
    
+#festlines {
+    height: 5px;
+
 }
 
 /* info END */
@@ -739,4 +743,5 @@ slider img {
         gap: 12px;
     }
 
+}
 }
