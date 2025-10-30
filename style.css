@@ -92,38 +92,26 @@ body {
     background-color: #1e1e20;
 }
 
-nav {
+/* Nav bar */
+
+.navbar {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
 }
 
-#homebutton {
-    background-color: white;
-    border-style: none;
-    padding: 80px;
-    font-size: 20px;
-}
-
-#programbutton {
-    background-color: white;
-    border-style: none;
-    padding: 80px;
-    font-size: 20px;
-}
-
-#billedebutton {
-    background-color: white;
-    border-style: none;
-     padding: 80px;
-    font-size: 20px;
-}
-
+#homebutton,
+#programbutton,
+#billedebutton,
 #børnelandbutton {
     background-color: white;
     border-style: none;
-     padding: 80px;
-    font-size: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #1e1e20;
+    text-decoration: none;
 }
 
 #language {
@@ -131,9 +119,48 @@ nav {
     justify-content: right;
     background-color: white;
     border-style: none;
-     padding: 80px;
-    font-size: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #1e1e20;
+    text-decoration: none;
 }
+
+.menu img {
+    display: none;
+    height: 35px;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 80px;
+    }
+
+    #homebutton,
+    #programbutton,
+    #billedebutton,
+    #børnelandbutton {
+        display: none;
+    }
+
+    #language {
+        display: none;
+
+    }
+
+    #menu-icon {
+    display: block;
+    }
+
+}
+
+
+/* END Nav bar */
+
 
 #bigtext {
     color: #c3332f;
@@ -157,7 +184,7 @@ nav {
     flex-direction: column;
     align-items: center;
     background-size: cover;
-    background-image: url(hero\ bg\ image.png);    
+    background-image: url(hero\ bg\ image.png);
 }
 
 #slideshow {
@@ -282,6 +309,11 @@ nav {
     transform: translateY(-50%);
 }
 
+@media screen and (max-width: 768px) {
+
+    
+}
+
 /* Experiences END */
 
 /* Ringriderfest info */
@@ -344,46 +376,46 @@ nav {
 }
 
 @media screen and (max-width: 1440px) {
-    
-.ringridertext {
-    padding: 48px;
-}
 
-.festbox {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
+    .ringridertext {
+        padding: 48px;
+    }
 
-#festinfo {
-    height: 250px;
-    padding: 24px;
-    margin: 24px;
-    border-radius: 30px;
-    flex: 1;
-    width: 100%;
-    justify-self: center;
-}
+    .festbox {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
 
-#infopic {
-    height: 280px;
-    padding: 48px;
-    width: 100%;
-    justify-content: center;
+    #festinfo {
+        height: 250px;
+        padding: 24px;
+        margin: 24px;
+        border-radius: 30px;
+        flex: 1;
+        width: 100%;
+        justify-self: center;
+    }
 
-}
+    #infopic {
+        height: 280px;
+        padding: 48px;
+        width: 100%;
+        justify-content: center;
 
-.festbutton {
-    display: flex;
-    justify-content: center;
-}
+    }
 
-#rytterbutton {
-    padding: 40px;
-    width: 350px;
-    border-radius: 20px;
-    font-size: large;
-}
+    .festbutton {
+        display: flex;
+        justify-content: center;
+    }
+
+    #rytterbutton {
+        padding: 40px;
+        width: 350px;
+        border-radius: 20px;
+        font-size: large;
+    }
 
 }
 
@@ -452,10 +484,10 @@ slider img {
         font-size: 64px;
     }
 
-.sponsortext img {
-    height: 7px;
-    object-fit: cover;
-}
+    .sponsortext img {
+        height: 7px;
+        object-fit: cover;
+    }
 }
 
 @media screen and (max-width: 1224px) {
