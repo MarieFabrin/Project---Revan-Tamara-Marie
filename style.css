@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-    font-size: 128px;
+    font-size: 100px;
     font-weight: 800;
     color: #fff;
     line-height: 0;
@@ -101,29 +101,29 @@ nav {
 #homebutton {
     background-color: white;
     border-style: none;
-    padding: 30px;
-    font-size: 25px;
+    padding: 80px;
+    font-size: 20px;
 }
 
 #programbutton {
     background-color: white;
     border-style: none;
-     padding: 30px;
-    font-size: 25px;
+     padding: 80px;
+    font-size: 20px;
 }
 
 #billedebutton {
     background-color: white;
     border-style: none;
-     padding: 30px;
-    font-size: 25px;
+     padding: 80px;
+    font-size: 20px;
 }
 
 #børnelandbutton {
     background-color: white;
     border-style: none;
-     padding: 30px;
-    font-size: 25px;
+     padding: 80px;
+    font-size: 20px;
 }
 
 #language {
@@ -131,8 +131,8 @@ nav {
     justify-content: right;
     background-color: white;
     border-style: none;
-     padding: 30px;
-    font-size: 25px;
+     padding: 80px;
+    font-size: 20px;
 }
 
 #bigtext {
@@ -153,18 +153,21 @@ nav {
     flex-direction: column;
     align-items: center;
     background-size: cover;
-    background-image: url(hero\ bg\ image.png);
-    
+    background-image: url(hero\ bg\ image.png);    
 }
 
-
 #slideshow {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     position: relative;
     align-items: center;
     background-image: url(bg\ for\ photo.png);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 100%;
 }
 
 #købbillet {
@@ -177,18 +180,6 @@ nav {
     font-family: 'poppins';
     color: white;
     font-size: large;
-}
-
-#littlepicture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#littlepicture.png img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Experiences */
@@ -405,6 +396,18 @@ slider img {
     100% {
         transform: translateX(-50%);
     }
+}
+
+@media screen and (max-width: 1440px) {
+
+    h2 {
+        font-size: 64px;
+    }
+
+.sponsortext img {
+    height: 7px;
+    object-fit: cover;
+}
 }
 
 @media screen and (max-width: 1224px) {
