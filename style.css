@@ -170,14 +170,13 @@ nav {
 #købbillet {
     display: flex;
     justify-content: center;
-    background-color: #c3332f;
+    background-color: #C3332F;
+    padding: 40px;
+    width: 350px;
+    border-radius: 20px;
+    font-family: 'poppins';
     color: white;
-    padding: 20px;
-    font-size: 15px;
-    border-radius: 15px;
-    font-weight: bold;
-    border-style: solid;
-    border-color: #c3332f;
+    font-size: large;
 }
 
 #littlepicture {
