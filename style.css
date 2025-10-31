@@ -171,6 +171,40 @@ body {
 
 }
 
+@media screen and (max-width: 500px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 48px;
+    }
+
+    #homebutton,
+    #programbutton,
+    #billedebutton,
+    #børnelandbutton {
+        display: none;
+    }
+
+    #language {
+        display: none;
+
+    }
+
+    .navbar img {
+        height: 50px;
+        width: auto;
+    }
+
+    #menu {
+        height: 50px;
+        width: auto;
+    }
+
+
+}
+
 /* END Nav bar */
 
 #bigtext {
@@ -236,7 +270,7 @@ body {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     width: 100%;
-        scroll-padding-right: 0;
+    scroll-padding-right: 0;
 }
 
 .sliderphotos::-webkit-scrollbar {
@@ -247,16 +281,16 @@ body {
     position: relative;
     flex: 0 0 100%;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     scroll-snap-align: start;
     box-sizing: border-box;
 }
 
 .photoslide img {
-  max-width: 60vw;
-  height: auto;
-  border-radius: 20px;
+    max-width: 60vw;
+    height: auto;
+    border-radius: 20px;
 }
 
 #photo1 img,
@@ -269,8 +303,8 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
 }
 
 .navbtn.left {
@@ -283,10 +317,10 @@ body {
 
 @media screen and (max-width: 768px) {
 
-#bigtext {
-    font: size 130px;
+    #bigtext {
+        font: size 130px;
 
-}
+    }
 
     #købbillet {
         padding: 20px;
@@ -296,42 +330,42 @@ body {
     }
 
 
-#littlepicture {
-    padding-top: 40px;
-    height: 250px;
-}
+    #littlepicture {
+        padding-top: 40px;
+        height: 250px;
+    }
 
-.photoslide {
-    position: relative;
-    flex: 0 0 100%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    scroll-snap-align: start;
-    box-sizing: border-box;
-}
+    .photoslide {
+        position: relative;
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+        box-sizing: border-box;
+    }
 
-.photoslide img {
-  max-width: 60vw;
-  height: auto;
+    .photoslide img {
+        max-width: 60vw;
+        height: auto;
 
-}
+    }
 
-.navbtn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 80px;
-    height: 80px;
-}
+    .navbtn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+    }
 
-.navbtn.left {
-    left: 5%;
-}
+    .navbtn.left {
+        left: 5%;
+    }
 
-.navbtn.right {
-    right: 5%;
-}
+    .navbtn.right {
+        right: 5%;
+    }
 
 }
 
@@ -429,6 +463,12 @@ body {
     transform: translateY(-50%);
 }
 
+.nav-btn img {
+    height: 50px;
+    width: 50px;
+}
+
+
 @media screen and (max-width: 768px) {
 
     #experienceh {
@@ -474,7 +514,6 @@ body {
 
 }
 
-
 @media screen and (max-width: 1000px) {
 
     .experiences-grid {
@@ -505,6 +544,13 @@ body {
     .nav-btn img {
         height: 50px;
         width: 50px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #experienceh {
+        font-size: 26px;
     }
 
 }
@@ -679,12 +725,13 @@ body {
         align-items: center;
         color: #fff;
         background-color: #c3332F;
-        height: 200px;
+        height: fit-content;
         padding: 40px;
         border-radius: 30px;
         line-height: 35px;
         text-align: center;
-        width: 600px;
+        width: 75%;
+
     }
 
     #infopic {
@@ -692,7 +739,7 @@ body {
         height: 380px;
         padding: 40px;
         margin-bottom: 80px;
-        width: 600px;
+        width: 90%;
     }
 
     .festbutton {
@@ -713,6 +760,15 @@ body {
         height: 5px;
 
     }
+}
+
+@media screen and (max-width: 500px) {
+
+    #ringriderfesttext {
+        font-size: 26px;
+        letter-spacing: 0;
+    }
+
 }
 
 /* info END */
@@ -829,6 +885,14 @@ body {
 
     .slider img {
         height: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .sponsortext h2 {
+        font-size: 36px;
     }
 
 }
