@@ -466,6 +466,21 @@ body {
 .nav-btn img {
     height: 50px;
     width: 50px;
+}  
+    
+.Rytterdyst p {
+    color: white;
+    background-color: #C3332F;
+    padding: 40px;
+    border-radius: 30px;
+
+}
+
+.Rytterdyst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
 }
 
 
