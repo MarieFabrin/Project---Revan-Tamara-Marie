@@ -583,7 +583,8 @@ h2 {
     display: flex;
     flex-direction: row;
     gap: 80px;
-    padding: 80px;
+    padding: 0px 80px;
+    height: fit-content;
 }
 
 .optogtext {
@@ -605,7 +606,7 @@ h2 {
 }
 
 .optogpic img {
-    
+    height: ;
     border-radius: 30px;
     align-self: stretch;
 }
