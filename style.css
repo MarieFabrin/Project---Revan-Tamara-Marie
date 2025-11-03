@@ -245,12 +245,15 @@ body {
     padding-bottom: 80px;
 
 }
+#please{
+    color: #fff;
+}
 
 #købbillet {
     display: flex;
     justify-content: center;
     background-color: #C3332F;
-    padding: 40px;
+    padding: 20px;
     width: 350px;
     border-radius: 20px;
     font-family: 'poppins';
