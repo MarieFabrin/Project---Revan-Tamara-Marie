@@ -237,8 +237,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-size: contain;
-    background-image: url(hero\ bg\ image.png);
+    background-size: cover;
+    background-image: url(New\ hero\ image.JPG);
 }
 
 #slideshow {
@@ -689,6 +689,20 @@ h2 {
 }
 
 /* END Optog*/
+
+.tattoobutton {
+    display: flex;
+    justify-content: center;
+}
+
+#tattooshowbutton {
+    background-color: #C3332F;
+    padding: 40px;
+    width: 350px;
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+}
 
 /* Ringriderfest info */
 
