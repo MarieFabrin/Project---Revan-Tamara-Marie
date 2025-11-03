@@ -207,12 +207,21 @@ body {
 
 /* END Nav bar */
 
+.herotext {
+    gap: 80px;
+    padding: 80px;
+}
+
+.herobtn {
+    display: flex;
+    justify-content: center;
+}
+
 #bigtext {
     color: #c3332f;
     justify-content: center;
-    font: size 130px;
+    font-size: 130px;
     text-align: center;
-
 }
 
 #intro {
@@ -228,7 +237,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-size: cover;
+    background-size: contain;
     background-image: url(hero\ bg\ image.png);
 }
 
@@ -250,13 +259,14 @@ body {
     display: flex;
     justify-content: center;
     background-color: #C3332F;
-    padding: 40px;
+    padding: 25px 75px;
     width: 350px;
     border-radius: 20px;
     font-family: 'poppins';
     color: white;
-    font-size: large;
+    font-size: 36px;
     margin: 40px;
+    border: none;
 }
 
 #littlepicture {
