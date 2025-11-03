@@ -556,6 +556,62 @@ body {
 
 /* Experiences END */
 
+/* Optog */
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.optogheader {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.optogheader img {
+    height: 10px;
+    width: 35vw;
+    margin: 5%;
+}
+
+.optogbox {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding: 80px;
+}
+
+.optogtext {
+    display: flex;
+    width: 45vw;
+    height: auto;
+    align-self: stretch;
+    align-items: center;
+    background-color: #c3332F;
+    padding: 40px;
+    border-radius: 30px;
+    line-height: 40px;
+    width: 50%;
+    text-align: center;
+}
+
+.optogtext p {
+    color: #fff;
+}
+
+.optogpic img {
+    
+    border-radius: 30px;
+    align-self: stretch;
+}
+
+/* END Optog*/
+
 /* Ringriderfest info */
 
 .ringridertext {
